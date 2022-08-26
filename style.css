@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: auto;
+}
+
+#hero img {
+  margin-bottom: 4.5rem;
+}
+
+#title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 3.063rem;
+  line-height: 3.5rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+#title strong {
+  font-weight: 700;
+  color: #FF9900;
+}
+
+#text {
+  color: #7D7987;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+#text strong {
+  font-weight: 700;
+}
+
+#text span {
+  color: #FF9900;
+}
+
+footer {
+  width: 568px;
+  margin: 4.5rem auto 0;
+  border-top: 1px solid #ECEFF2;
+  padding-top: 0.5rem;
+  
+}
+
+.socialLink {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: #FF9900;
+}
+
+
+footer a + a {
+  margin-left: 1.75rem;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
